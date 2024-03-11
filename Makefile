@@ -1,6 +1,6 @@
 IMAGE_NAMESPACE?=registry.sima-land.ru/devops
 IMAGE_NAME=argocd-image-updater
-IMAGE_TAG?=v0.12.2--sl-devops-clean
+IMAGE_TAG?=v0.12.2--sl-devops-with-plugins-support
 ifdef IMAGE_NAMESPACE
 IMAGE_PREFIX=${IMAGE_NAMESPACE}/
 else
