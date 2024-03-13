@@ -177,7 +177,7 @@ func Test_GetApplicationType(t *testing.T) {
 		}
 		appType := GetApplicationType(application)
 		assert.Equal(t, ApplicationTypeHelm, appType)
-		assert.Equal(t, "Plugin", appType.String())
+		assert.Equal(t, "Helm", appType.String())
 	})
 
 }
